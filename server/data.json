@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "malik",
+      "email": "vishnu@gmail.com",
+      "password": "saimon@791"
+    }
+  ],
+  "foods": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "price": 199,
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600",
+      "description": "Cheesy classic pizza"
+    },
+    {
+      "id": 2,
+      "name": "Burger",
+      "price": 99,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600",
+      "description": "Fresh vegetable burger"
+    },
+    {
+      "id": 3,
+      "name": "Biryani",
+      "price": 149,
+      "image": "https://images.unsplash.com/photo-1563379091339-03246963d96c?w=600",
+      "description": "Aromatic rice and spices"
+    },
+    {
+      "id": 4,
+      "name": "Noodles",
+      "price": 119,
+      "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600",
+      "description": "Tasty noodles"
+    },
+    {
+      "id": 5,
+      "name": "Sandwich",
+      "price": 79,
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600",
+      "description": "Grilled sandwich"
+    },
+    {
+      "id": 6,
+      "name": "Ice Cream",
+      "price": 59,
+      "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=600",
+      "description": "Cold and creamy dessert"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "customerName": "malik",
+      "items": [
+        {
+          "foodId": 1,
+          "name": "Pizza",
+          "price": 199,
+          "quantity": 22
+        },
+        {
+          "foodId": 5,
+          "name": "Sandwich",
+          "price": 79,
+          "quantity": 3
+        },
+        {
+          "foodId": 3,
+          "name": "Biryani",
+          "price": 149,
+          "quantity": 3
+        }
+      ],
+      "total": 5062,
+      "status": "Placed",
+      "date": "26/11/2026, 2:01:27 am"
+    }
+  ]
+}
